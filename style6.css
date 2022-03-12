@@ -1,0 +1,51 @@
+@media screen and (max-width:670px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .navigation{
+        text-align: center;
+        justify-content: center;
+        height: 150px;
+    }
+    .navbar{
+        display: block;
+    }
+        .premier {
+            justify-content: center;
+
+        }
+        .deuxieme{
+            display: none;
+        }
+        .troisieme{
+            justify-content: center;
+        }
+        .premier img{
+            height: 80px;
+            width: 90%;
+        }
+        .marque{
+            
+            transform: translate(-200px, 25px);
+        }
+        .footer1{
+            display: none;
+        }
+.part2{
+    display: none;
+}
+.bouton1{
+    width: 100%;
+}
+.interieur{
+    display: block;
+}
+.content2 {
+    display: none;
+}
+.composition2{
+    display: none;
+}
+}

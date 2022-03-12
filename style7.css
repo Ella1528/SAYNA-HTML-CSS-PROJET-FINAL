@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation{
+    height: 70px;
+    width: 100%;
+    background-color:  #d35649;
+    display: flex;
+    
+}
+.navbar{
+    display: flex;
+    text-align: center;
+}
+    .premier{
+        display: flex;
+    }
+    
+    .troisieme{
+        display: flex;
+        font-size: small;
+    }
+    .marque{
+        font-size: 22px;
+    }
+.menu{
+        border-radius: 5px;
+        box-shadow: #98a5a5 0 0 15px;
+        padding-top: 30px;
+        display: flex;
+    } 
+.part1 h1{
+    color:#d35649 ;
+    text-align: center;
+    padding-top: 10px;
+}
+    .division1{
+        padding-top: 15px;
+        display: block;
+    }
+    .division2{
+        padding-top: 15px;
+        display: block;
+       
+    
+    }
+    .source1{ 
+        height: 60px;
+        border: #98a5a5 solid 1px;
+    }
+    .source2{ 
+        height: 60px;
+        border: #98a5a5 solid 1px;
+    }
+        .source1 p{
+            text-align: center;
+            padding-top: 15px;
+            font-size: 18px;
+            font-weight: 500;
+        
+        }
+        .source1 p span{
+            color: #509bd7;
+            font-weight: 700;
+            margin-left: 5px;
+        }
+        .source2 p{
+            text-align: center;
+            padding-top: 15px;
+            font-size: 18px;
+            font-weight: 500;
+        
+        }
+        .source2 p span{
+            color: #509bd7;
+            font-weight: 700;
+            margin-left: 5px;
+        }
+    .bloc{
+        display: flex;
+        padding-top: 20px;
+        margin-right: 70px;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+    .part2{
+        border-top:#98a5a5 solid 5px ;
+    }
+    .click{
+      
+        background-color: rgba(238, 238, 238, 0.829);
+        height: 80px;
+      
+    }
+    .click h2{
+        font-weight: 400;
+        font-size: 26px;
+      
+        width: 100%;
+        
+    }
+    .map h2{
+        font-weight: 500;
+        font-size: 26px;
+        margin: 20px;
+        width: 100%;
+        color: #d35649;
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    .apply{
+        text-align: right;
+      
+        margin-top: 5px;
+        width: 80%;
+    }
+
+
+
+
+
+  .partfinal{
+            width: 100%;
+            height: auto;
+            background-color: #1f1f1f;
+        }
+            .footer1{
+                width: 100%;
+                height: 270px;
+                background-color: #000000;
+            }
+                .subdivision1{
+                    width:100% ;
+                    height: 100px;
+                   
+                    display: flex;
+                    text-align: center;
+                    
+                }
+                .continuation{
+                    padding-top: 20px;
+                    display: flex;
+                    text-align: center;
+                    padding-left: 50px;
+                    font-size: small;
+                    position: relative;
+                    height: 40px;
+        
+                }
+                .signe1{
+                    border-top: #eee solid 2px;
+                    border-bottom: #eee solid 2px; 
+                }
+                .signe3{
+                    border-top: #eee solid 2px;
+                    border-bottom: #eee solid 2px;
+                }
+                .signe2{
+                    border-radius: 50%;
+                    border: solid 1px #eee;
+                    position: absolute;
+                    top: 50%;
+                    left: 48%;
+                    transform: translate(-55%, -30%);
+                    background-color: black;
+                }
+                .subdivision2{
+                    width:100% ;
+                    height: 120px;
+                    float: left;
+                    padding-top: 30px;
+                    font-size: small;
+                }
+                    .subdivision2 h4{
+                        color:#eee ;
+                        text-align: center;
+                    }
+                    .subdivision2 p{
+                        color:#eee ;
+                        text-align: center;
+                        font-size: small;
+                    }
+                    .boutton{
+                        display: flex;
+                        padding-left: 70px;
+                    }
+                    .button1{
+                        width: 30%;
+                        height: 40px;
+                        text-align: center;
+                        padding-right: 40px;
+                    }
+                    
+                        .bouton6{
+                            background-color:#000000 ;
+                            color: #98a5a5;
+                            text-align: center;
+                            position: center;
+                            width: 200px;
+                            height: 30px;
+                            border: none;
+                            margin: 0 auto;
+                            border: #98a5a5 solid 1px;
+                            margin-top: 4px;
+                            
+                         }
+        
+                    .contact p{
+                        width: 50%;
+                        text-align: center;
+                        margin-left: 90px;
+                    }
+                    .contact p span{
+                        width: 50%;
+                        text-align: center;
+                        color: #d35649 ;
+                        margin-top: 40px !important;
+                    }
+                    .about{
+                        margin-left: 30px;
+                    }
+                    .about p{
+                        width: 100%;
+                        margin-right: 40px;
+                        height: 60px;
+                    }
+                    .about p span{
+                        width: 100%;
+                        color: #d35649 ;
+                    }
+                    
+            .footer2{
+                width: 100%;
+                
+                background-color: #444;
+            }
+                .partie1{
+                    width: 50%;
+                    display: flex;
+                    color: #eee;
+                }
+                .partie2{
+                    width: 50%;
+                    text-align: right;
+                }
+                .partie2 p{
+                    font-size: small;
+                }
+                

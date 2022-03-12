@@ -1,0 +1,75 @@
+@media screen and (max-width:670px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .navigation{
+        text-align: center;
+        justify-content: center;
+        height: 150px;
+    }
+    .navbar{
+        display: block;
+    }
+        .premier {
+            justify-content: center;
+
+        }
+        .deuxieme{
+            display: none;
+        }
+        .troisieme{
+            justify-content: center;
+        }
+        .premier img{
+            height: 80px;
+            width: 90%;
+        }
+        .marque{
+            
+            transform: translate(-200px, 25px);
+        }
+        .division1{
+            display: inline-block;
+            width: 100%;
+        }
+        .source1{ 
+            height: 60px;
+            border: #98a5a5 solid 1px;
+            width: 100%;
+        }
+        .bloc{
+            width: 80%;
+            
+        }
+        .click{
+            width: 100%;
+
+        }
+        .click h2{
+            font-weight: 400;
+            font-size: 26px;
+          
+            width: 60%;
+            
+        }
+        .mapdirect{
+            width: 100%
+        }
+        .mapdirect iframe{
+            width: 650px;
+        }
+
+    
+    .footer1{
+        display: none;
+    }
+    .subdivision1{
+        display: none;
+    }
+    .subdivision2{
+        display: none;
+    }
+
+}

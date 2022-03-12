@@ -1,0 +1,67 @@
+@media screen and (max-width:670px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .navigation{
+        text-align: center;
+        justify-content: center;
+        height: 150px;
+    }
+    .navbar{
+        display: block;
+    }
+        .premier {
+            justify-content: center;
+
+        }
+        .deuxieme{
+            display: none;
+        }
+        .troisieme{
+            justify-content: center;
+        }
+        .premier img{
+            height: 80px;
+            width: 90%;
+        }
+        .marque{
+            
+            transform: translate(-200px, 25px);
+        }
+        .filter h3{
+            width: 80%;
+            color: #98a5a5;
+            font-weight: 500;
+            padding-top: 20px;
+            justify-content: space-around;
+            font-size: 28px;
+            margin-left: 30px;
+        }
+        .go{
+            display: block;
+            justify-content: center;
+            margin-left: 150px;
+            text-align: center;
+        }
+        .bouttton{
+            text-align: left;
+            justify-content: space-around;
+        }
+        .tana{
+            display: block;
+        }
+
+    
+    .footer1{
+        display: none;
+    }
+    .subdivision1{
+        display: none;
+    }
+    .subdivision2{
+        display: none;
+    }
+
+}
