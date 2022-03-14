@@ -33,6 +33,14 @@
         .footer1{
             display: none;
         }
+.part1 h1{
+    width: 80%;
+    text-align: center;
+    padding-left: 200px;
+}
+.part1{
+    justify-content: center;
+}
 .part2{
     display: none;
 }
@@ -48,4 +56,57 @@
 .composition2{
     display: none;
 }
+    .solution4{
+        background-image: url(../evaluation/Assets/Images/group-4.jpg);
+        border-radius: 25px;
+        background-position: 20% 50%;
+        background-size: cover;
+        text-decoration: none;
+        height: 270px;
+        padding-top: 70px;
+       
+    }
+.changement{
+    flex-direction: column-reverse;
+    display: flex;
+    order: 2;
+}
+    .part3{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+    }
+    .part4{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+
+    }
+    .bouton5{
+        display: none;
+    }
+    .solution3{
+        background-image: url(../evaluation/Assets/Images/group-2.jpg);
+        border-radius: 25px;
+        background-position: 20% 50%;
+        background-size: cover;
+        
+        height: 270px;
+        
+       
+    }
+    .bouton4{
+        display: none;
+    }
+    .solution5{
+        background-image: url(../evaluation/Assets/Images/group-2.jpg);
+        border-radius: 25px;
+        background-position: 20% 50%;
+        background-size: cover;
+        height: 270px;
+       
+    }
+    .part5{
+        height: 300px;
+    }
 }

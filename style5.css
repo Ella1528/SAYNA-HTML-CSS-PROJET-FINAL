@@ -22,6 +22,9 @@
         display: flex;
         font-size: small;
     }
+    .troisieme:hover{
+        color: blue;
+    }
     .marque{
         font-size: 22px;
     }
